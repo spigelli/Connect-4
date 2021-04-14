@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- Enter your title in between the title tags -->
+    <title>Platformer template</title> 
+
+    <!-- Connecting this HTML file to the CSS tylesheet -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Libraries: -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="collision.js"></script>
+
+  </head>
+  <body>
+	<h1 style="font_weight: bold;">Connect 4</h1>
+	<h2 id="player_display" style="font_weight: bold;">Player 1's Move</h2>
+	<p hidden id="selected_cell"></p>
+	<table id="board_table" class="center">
+		<tr id="5">
+			<th id="0"></th>
+			<th id="1"></th>
+			<th id="2"></th>
+			<th id="3"></th>
+			<th id="4"></th>
+			<th id="5"></th>
+			<th id="6"></th>
+		</tr>
+		<tr id="4">
+			<th id="0"></th>
+			<th id="1"></th>
+			<th id="2"></th>
+			<th id="3"></th>
+			<th id="4"></th>
+			<th id="5"></th>
+			<th id="6"></th>
+		</tr>
+		<tr id="3">
+			<th id="0"></th>
+			<th id="1"></th>
+			<th id="2"></th>
+			<th id="3"></th>
+			<th id="4"></th>
+			<th id="5"></th>
+			<th id="6"></th>
+		</tr>
+		<tr id="2">
+			<th id="0"></th>
+			<th id="1"></th>
+			<th id="2"></th>
+			<th id="3"></th>
+			<th id="4"></th>
+			<th id="5"></th>
+			<th id="6"></th>
+		</tr>
+		<tr id="1">
+			<th id="0"></th>
+			<th id="1"></th>
+			<th id="2"></th>
+			<th id="3"></th>
+			<th id="4"></th>
+			<th id="5"></th>
+			<th id="6"></th>
+		</tr>
+		<tr id="0">
+			<th id="0"></th>
+			<th id="1"></th>
+			<th id="2"></th>
+			<th id="3"></th>
+			<th id="4"></th>
+			<th id="5"></th>
+			<th id="6"></th>
+		</tr>
+	</table>
+	<div id="debug_selectors">
+		<div id="red">red</div>
+		<div id="yellow">yellow</div>
+	</div>
+    <script src="main.js"></script>
+  </body>
+</html>
