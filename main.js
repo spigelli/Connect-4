@@ -300,7 +300,8 @@ check_win_diagonal_negative = function (x, y) {
 
 get_cell_by_id = function (x, y){
 	table = document.getElementById("board_table");
-	row = table.children.item(5 - parseInt(y));
+	tbody = table.children[0]
+	row = children.children.item(5 - parseInt(y));
 	cell = row.children.item(x);
 	return(cell);
 }
